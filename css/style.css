@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(65deg, #020024, indigo, #1613cf, #00d4ff);
+}
+
+/* Section and Header  */
+
+section,
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-image: linear-gradient(15deg, #020024, indigo, #1613cf);
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo  */
+.logo {
+  width:5.3vw;
+  margin-left: 1%;
+  border-radius: 1px;
+}
+
+.company_name {
+  font-size: 2.3vw;
+  min-width: 2vw;
+}
+
+/* Buttons */
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1.4vw;
+}
+
+/* Carousel Section  */
+#carousel {
+  display: block;
+  width: 100vw;
+  background-size: cover;
+}
+
+.carousel-item img {
+  height: 34vw;
+}
+
+.subText {
+  font-size: 105%;
+  opacity: 0.6;
+}
+
+/* Welcome Section  */
+#welcomeToMars {
+  padding: 4%;
+  margin-top: 0;
+}
+
+#welcomeToMars .container-fluid .row img {
+  border-radius: 3%;
+  margin: 5%;
+}
+
+.introduction .welcomeHeading,
+.companyName {
+  font-size: 145%;
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+}
+
+.introduction {
+  font-family: sans-serif;
+  padding: 3%;
+}
+
+/* Product Section  */
+#products {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#products .row {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#products .container-fluid {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.productsParagraph {
+  font-size: 170%;
+  width: 90vw;
+  text-align: center;
+}
+
+#products .container-fluid {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 0% 5% 2%;
+}
+
+.photo-caption a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: large;
+  text-decoration: none;
+  color: rgb(156, 155, 155);
+  margin: 2%;
+}
+
+.photo-caption a:visited{ 
+  color: skyblue; 
+}
+.photo-caption a:hover {
+  color:red;
+  bottom: 4px;
+  border-radius: 3%;
+  box-shadow: 0px 6px 2px 2px transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.productImages {
+  width: 50%;
+  height: 60%;
+  border-radius: 3%;
+  margin: 5% auto;
+  padding: 1%;
+}
+
+.nineWattBulb {
+  width: 70%;
+  height: 75%;
+  margin: 3% auto;
+}
+
+.fiftyWattImage {
+  width: 48%;
+  height: 50%;
+  margin: 3% auto;
+}
+
+.streetLight {
+  width: 60%;
+  height: 31vh;
+  margin: 5% auto;
+}
+
+/* Contact Section  */
+#contact {
+  display: inline-block;
+  width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactUs {
+  font-size: xx-large;
+  width: 90vw;
+  text-align: center;
+  margin: auto;
+}
+
+#contact .container-fluid .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2% 2% 7% 2%;
+}
+
+#contact .container-fluid .row img,
+address {
+  width: 100%;
+  margin: 2.5% auto;
+}
+
+#contact .container-fluid .row img {
+  border-radius: 3%;
+}
+
+/* Footer Section  */
+.footer {
+  background-color: black;
+  text-align: center;
+  color: gray;
+  overflow: hidden;
+  padding: 0.5vw 0 0 0.5vw;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 1.3%;
+  min-width: 1.5rem;
+  margin: 1% 1.2%;
+  line-height: 0;
+}
+
+footer p {
+  font-size: small;
+  margin-bottom: 0.4%;
+  color: gray;
+}

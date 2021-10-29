@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-image: linear-gradient(65deg, #020024, indigo, #1613cf, #00d4ff);
+  }
+  #productImage {
+    width: 100vw;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .layoutPage {
+    width: 90vw;
+    height: 90%;
+    /* border: 2px solid rgb(230, 7, 7); */
+    background-color: whitesmoke;
+    margin: 4% 0 4% 0;
+    border-radius: 1rem;
+    padding: 2% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .layoutPage .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .ledBulb {
+    text-align: center;
+    width: 100vw;
+    /* border: 2px solid green; */
+    margin: 0 0 2% 0;
+  }
+  
+  .productName {
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+  
+  .mainContent {
+    /* border: 2px solid rgb(35, 216, 19); */
+  }
+  
+  .productPhoto {
+    width: 84%;
+    height: 43%;
+    border: 2px solid rgb(168, 164, 164);
+    border-radius: 1rem;
+    margin: 2%;
+    background: gray;
+  }
+  
+  .variants {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(168, 164, 164);
+    text-decoration: none;
+    color: white;
+    padding: 0 2px 0 2px;
+  }
+  
+  .specification {
+    /* border: 2px solid black; */
+    display: flex;
+    padding-left: 2%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2%;
+  }
+  
+  .list {
+    margin-left: 2%;
+  }
+  
+  /* Footer Section  */
+  
+  #footer {
+    width: 90vw;
+    background-color: black;
+    /* border: 2px solid rgb(255, 0, 212); */
+    text-align: center;
+    padding: 1% 0 0 0;
+    color: gray;
+    /* border: 2px solid green; */
+    margin: 2% 0 0 0;
+  }
+  
+  .footerIcons {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  .icon {
+    width: 2%;
+    min-width: 3%;
+    margin: 1%;
+  }
+  
+  footer p {
+    font-size: small;
+  }
+  
